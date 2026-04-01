@@ -243,46 +243,46 @@ secondary_text = "#7f8c8d"
 # -------------------------------
 # CSS Styling
 # -------------------------------
-st.markdown(f"""
-<style>
-[data-testid="stAppViewContainer"] {{
-    background-color: {bg_color};
-    color: {text_color};
-}}
-[data-testid="stSidebar"] {{
-    background-color: {card_color};
-    color: {text_color};
-}}
-div[role="radiogroup"] label {{
-    color: {text_color} !important;
-    font-weight: 600;
-}}
-div[role="radiogroup"] input[type="radio"] {{
-    accent-color: #1abc9c;
-}}
-.card {{
-    background-color: {card_color};
-    border-radius: 16px;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
-    transition: transform 0.2s;
-}}
-.card:hover {{
-    transform: scale(1.03);
-}}
-.stButton>button {{
-    background-color: #1abc9c;
-    color: white;
-    font-size: 16px;
-    border-radius: 10px;
-    padding: 8px 0;
-}}
-label {{
-    color: {text_color} !important;
-}}
-</style>
-""", unsafe_allow_html=True)
+# st.markdown(f"""
+# <style>
+# [data-testid="stAppViewContainer"] {{
+#     background-color: {bg_color};
+#     color: {text_color};
+# }}
+# [data-testid="stSidebar"] {{
+#     background-color: {card_color};
+#     color: {text_color};
+# }}
+# div[role="radiogroup"] label {{
+#     color: {text_color} !important;
+#     font-weight: 600;
+# }}
+# div[role="radiogroup"] input[type="radio"] {{
+#     accent-color: #1abc9c;
+# }}
+# .card {{
+#     background-color: {card_color};
+#     border-radius: 16px;
+#     padding: 20px;
+#     margin-top: 20px;
+#     box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+#     transition: transform 0.2s;
+# }}
+# .card:hover {{
+#     transform: scale(1.03);
+# }}
+# .stButton>button {{
+#     background-color: #1abc9c;
+#     color: white;
+#     font-size: 16px;
+#     border-radius: 10px;
+#     padding: 8px 0;
+# }}
+# label {{
+#     color: {text_color} !important;
+# }}
+# </style>
+# """, unsafe_allow_html=True)
 
 # -------------------------------
 # Load Models
